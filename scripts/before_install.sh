@@ -5,8 +5,7 @@
 # . ~/.nvm/nvm.sh
 # # nvm install node
 # nvm install 16
-sudo apt update
-sudo apt install nodejs npm
+sudo yum install nodejs npm --enablerepo=epel
 
 #create our working directory if it doesnt exist
 DIR="/home/ec2-user/express-app"
