@@ -11,8 +11,8 @@ cd /home/ec2-user/express-app
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # loads nvm	
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # loads nvm bash_completion (node is in path now)
 # sudo nano ~/.bashrc
-PATH=$(sed "s/\/home\/ec2-user\/\.nvm\/versions\/node\/v18.7.0\/bin://" <<< $PATH)
-export PATH=$PATH:/home/ec2-user/node-v16.16.0-linux-x64/bin
+# PATH=$(sed "s/\/home\/ec2-user\/\.nvm\/versions\/node\/v18.7.0\/bin://" <<< $PATH)
+# export PATH=$PATH:/home/ec2-user/node-v16.16.0-linux-x64/bin
 # source /home/ec2-user/.bash_rc
 # export PATH=/home/ec2-user/.nvm/versions/node/v16.16.0/lib/node_modules/npm:$PATH
 
