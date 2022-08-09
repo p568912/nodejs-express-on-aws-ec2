@@ -8,8 +8,6 @@
 # nvm install 16
 wget https://nodejs.org/dist/latest-v16.x/node-v16.16.0-linux-x64.tar.gz
 tar zvxf node-v16.16.0-linux-x64.tar.gz
-sudo nano ~/.bashrc
-export PATH=$PATH:/home/ec2-user/node-v16.16.0-linux-x64/bin
 
 #create our working directory if it doesnt exist
 DIR="/home/ec2-user/express-app"
