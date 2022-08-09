@@ -6,7 +6,7 @@
 # . ~/.nvm/nvm.sh
 # # nvm install node
 # nvm install 16
-wget https://nodejs.org/dist/latest-v16.x/node-v16.16.0-linux-x64.tar.gz
+sudo wget https://nodejs.org/dist/latest-v16.x/node-v16.16.0-linux-x64.tar.gz
 tar zvxf node-v16.16.0-linux-x64.tar.gz
 
 #create our working directory if it doesnt exist
