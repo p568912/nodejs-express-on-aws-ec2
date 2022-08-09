@@ -13,7 +13,7 @@ cd /home/ec2-user/express-app
 # sudo nano ~/.bashrc
 # PATH=$(sed "s/\/home\/ec2-user\/\.nvm\/versions\/node\/v18.7.0\/bin://" <<< $PATH)
 # export PATH=$PATH:/home/ec2-user/node-v16.16.0-linux-x64/bin
-source /home/ec2-user/.bash_rc
+source /home/ec2-user/.bashrc
 # export PATH=/home/ec2-user/.nvm/versions/node/v16.16.0/lib/node_modules/npm:$PATH
 
 
