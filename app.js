@@ -22,8 +22,8 @@ app.get("/", (req, res) => {
         console.log("Error: " + err);
         res.send("<h1>Acess DB failed</h1> <h4>{result}</h4>");
       }
-      console.log("Result: " + result);
-      res.send("<h1>Express Demo App</h1> <h4>Message: {result}</h4> ");
+      console.log(`Result:  {result}`);
+      res.send(result);
     });
   });
 });
