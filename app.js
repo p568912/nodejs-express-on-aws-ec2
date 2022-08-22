@@ -8,6 +8,7 @@ let con = mysql.createConnection({
   host: "localhost",
   user: "test",
   password: "Phx.202207",
+  database: "test",
 });
 
 app.get("/", (req, res) => {
