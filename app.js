@@ -12,7 +12,7 @@ let con = mysql.createConnection({
 });
 
 app.get("/", (req, res) => {
-  let sql_cmd = "select * from user;";
+  let sql_cmd = "select * from users;";
   con.connect(function (err) {
     if (err) throw err;
     console.log("Connected!");
