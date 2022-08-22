@@ -1,3 +1,4 @@
+const router = require("express").Router();
 
 router.use((req, res, next) => {
   console.log("A request is coming into example api...");
@@ -24,3 +25,8 @@ router.get("/sqlDemo", (req, res) => {
 
 
    });
+  
+  
+module.exports = router;
+
+  
